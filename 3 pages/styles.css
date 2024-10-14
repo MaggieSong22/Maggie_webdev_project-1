@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c3f551;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+h1 {
+    font-size: 3em; 
+    text-align: center; 
+}
+
+h2 {
+    font-size: 2em; 
+    text-align: center;
+    margin-top: 0.5em;
+    font-style: italic;
+}
+h3 {
+    font-size: 2em;
+}
+p {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.2em;
+    }
+
+
+.ingredients h3, .steps h3 {
+    font-size: 1.8em; 
+    text-decoration: underline; 
+}
+
+
+.ingredients ul, .steps ol {
+    font-size: 1.2em; 
+    line-height: 1.5; 
+}
+
+
+.recipe-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 40px; 
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.intro-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.intro-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.intro-image {
+    flex: 1;
+}
+
+.remy-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.remy-img {
+    max-width: 30%;
+}
+
+.second-image {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.second-img {
+    max-height: 100%;
+}
+.nav-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links ul li {
+    margin-bottom: 10px;
+}
+
+.recipe-content, .tips-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.ingredients, .steps {
+    flex: 1;
+}
+
+.left-section, .right-section {
+    flex: 1;
+}
+
+.right-section img {
+    max-width: 100%;
+    height: auto;
+}
